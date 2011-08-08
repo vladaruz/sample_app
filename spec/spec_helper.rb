@@ -39,7 +39,7 @@ Spork.prefork do
     ActiveRecord::Base.instantiate_observers
     
     ### Routes reload for spork
-    YourApplicationName::Application.reload_routes!
+    SampleApp::Application.reload_routes!
 
   end
 end
