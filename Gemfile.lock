@@ -102,6 +102,7 @@ DEPENDENCIES
   factory_girl_rails
   gravatar_image_tag
   rails (= 3.0.9)
+  rake
   rspec
   rspec-rails
   spork
